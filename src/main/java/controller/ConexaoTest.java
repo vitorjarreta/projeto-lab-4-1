@@ -9,5 +9,7 @@ public class ConexaoTest {
             System.out.println("Conexão realizada com sucesso");
             Conexao.desconectar(con);
         }
+        
+        System.out.println("Sla, aleátorio");
     }
 }
