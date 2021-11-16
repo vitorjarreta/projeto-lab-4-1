@@ -21,6 +21,7 @@ public class UsuarioDAO {
             cmd = con.prepareStatement(SQL);
             cmd.setString(1, u.getUsuario());
             cmd.setString(2, u.getSenha());
+            
 
             ResultSet rs = cmd.executeQuery();
             if (rs.next()) {
